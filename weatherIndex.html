@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather NOW</title>
+    <link rel="stylesheet" href="/weatherStyle.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/magnifying-glass?f=classic&s=solid">
+</head>
+<body>
+    <div class="card">
+        <h1 class="cardTitle">Текущая погода</h1>
+        <div class="cardSearch">
+            <input class="cardInput" placeholder="Введите название города">
+            <button id="searchBtn" class="cardBtn">
+                <!--Иконка для поиска:-->
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <div class="cardWeather">
+            <h2 class="cardTitle cardTitle--city">Moscow</h2>
+            <div class="cardBlock"></div>
+            <h3 class="cardTitle cardTitle--temp">10°C</h3>
+        </div>
+    </div>
+
+
+<script src="weatherMain.js"></script>
+</body>
+</html>

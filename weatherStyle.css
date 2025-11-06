@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input,
+button {
+    border: 0;
+    outline: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card{
+    flex-basis: 500px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    margin: 0px 15px;
+    background: linear-gradient(180deg,#946161, #515e9b);
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 40px 20px;
+    text-align: center;
+    height: 300px;
+}
+
+.cardTitle{
+    font-size: 32px;
+}
+
+.cardTitle--temp{
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.cardTitle--city{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.cardSearch{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.cardInput{
+    color: #000000;
+    padding: 10px 25px;
+    border-radius: 30px;
+    width: 400px;
+    background: #ffffff;
+    font-size: 18px;
+    height: 40px;
+}
+
+.cardBtn{
+    border-radius: 50%;
+    width: 60px;
+    flex: 0 0 60px;
+    cursor: pointer;
+    background: #ffffff;
+    height: 60px;
+}
